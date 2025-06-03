@@ -115,9 +115,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const commands = {
         help: 'Available commands: help, about, skills, projects, contact, clear',
         about: 'I am Prahlad Singh, a cosmic developer with expertise in full-stack development, AI, and creating otherworldly digital experiences.',
-        skills: 'Frontend: React, Three.js, WebGL | Backend: Node.js, Python | AI/ML: TensorFlow, Computer Vision',
-        projects: 'Quantum Interface, Nebula AI, Galactic Dashboard - type "projects" for more info',
-        contact: 'You can reach me at contact@cosmicdev.space or through the contact form on this site.',
+        skills: 'Frontend: React, Vue,  | Backend: Node.js, Express.js, MongoDB',
+        projects: 'Edunoteshub, PG Expense Tracker',
+        contact: 'You can reach me at prahlad.singh.dev or through the contact form on this site.',
         clear: function() {
             terminalContent.innerHTML = '<p>Welcome to Cosmic Developer Terminal v3.1.4</p><p>Type "help" to see available commands</p>';
         }
@@ -221,10 +221,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Create tech sphere tags
     const techTags = [
-        'React', 'Node.js', 'TypeScript', 'Python', 'TensorFlow', 
-        'Three.js', 'WebGL', 'GraphQL', 'Docker', 'Kubernetes',
-        'JavaScript', 'CSS3', 'HTML5', 'Sass', 'GSAP', 'Next.js',
-        'MongoDB', 'PostgreSQL', 'AWS', 'Git', 'Redux', 'Jest'
+        'React', 'Node.js', 'TypeScript', 'Python', 
+        'JavaScript', 'CSS3', 'HTML5',
+        'MongoDB', 'MySQL','Java','C','Php', 'Git', 'Redux','Express.js'
     ];
     
     const sphereSurface = document.querySelector('.sphere-surface');
